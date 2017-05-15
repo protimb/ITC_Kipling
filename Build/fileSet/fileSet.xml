@@ -1,0 +1,17 @@
+<!-- Comment: sample fileSet.xml used to load data / configurations into windchill/flex
+place  package structure of youe load files inside "loadFiles->customLoadFiles" folder in svn. So for filename attribute give path from customLoadFiles/your package structure, containerPath attribute indicates in which context the loading has to be done.
+
+<!DOCTYPE loadFileList SYSTEM "/wt/load/windchillLoad.dtd">
+<loadFileList>
+	<loadFile filename="customLoadFiles/pdmlink/itc/attributes/Attributes.xml" containerPath="/"/>
+	<loadFile filename="customLoadFiles/pdmlink/itc/types/onlytype/AnalysisDocument_Type.xml" containerPath="/"/>	
+	<loadFile filename="customLoadFiles/pdmlink/itc/lifecycle/EnquiryLC/TAG-NmLoader-0.xml" containerPath="/wt.inf.container.OrgContainer=ITCInfotech"/>
+	<loadFile filename="customLoadFiles/pdmlink/itc/lifecycle/EndItem/TAG-NmLoader-0.xml" containerPath="/wt.inf.container.OrgContainer=ITCInfotech"/>
+	<loadFile filename="customLoadFiles/pdmlink/itc/lifecycle/PartOOTB/TAG-NmLoader-0.xml" containerPath="/wt.inf.container.OrgContainer=ITCInfotech"/>
+	<loadFile filename="customLoadFiles/pdmlink/itc/lifecycle/Basic/TAG-NmLoader-0.xml" containerPath="/wt.inf.container.OrgContainer=ITCInfotech"/>
+	<loadFile filename="customLoadFiles/pdmlink/itc/workflow/EnquiryWF/TAG-NmLoader-0.xml" containerPath="/wt.inf.container.OrgContainer=ITCInfotech"/>
+	<loadFile filename="customLoadFiles/pdmlink/itc/workflow/EnquiryWF/TAG-NmLoader-0.xml" containerPath="/wt.inf.container.OrgContainer=ITCInfotech"/>
+	
+</loadFileList>
+
+-->
