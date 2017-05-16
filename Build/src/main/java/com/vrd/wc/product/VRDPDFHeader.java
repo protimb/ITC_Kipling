@@ -307,27 +307,6 @@ public class VRDPDFHeader {
                                 attTable.addCell(cell);
                             }
                         }
-                        PdfPCell emptyCell1 = new PdfPCell(pgh.multiFontPara("", pgh.getCellFont("FORMLABEL", null, "8")));
-                        emptyCell1 = new PdfPCell(pgh.multiFontPara("", pgh.getCellFont("DISPLAYTEXT", null, null)));
-                        emptyCell1.setBorder(1);
-                        attTable.addCell(emptyCell1);
-
-                        PdfPCell emptyCell2 = new PdfPCell(pgh.multiFontPara("", pgh.getCellFont("FORMLABEL", null, "8")));
-                        emptyCell2 = new PdfPCell(pgh.multiFontPara("", pgh.getCellFont("DISPLAYTEXT", null, null)));
-                        emptyCell2.setBorder(1);
-                        emptyCell2.setBorderWidthRight(0.5f);
-                        attTable.addCell(emptyCell2);
-                        
-                        PdfPCell pageNumberCell = new PdfPCell(pgh.multiFontPara("Date : ", pgh.getCellFont("FORMLABEL", null, "8")));
-                        pageNumberCell = new PdfPCell(pgh.multiFontPara("Page : ", pgh.getCellFont("FORMLABEL", null, null)));
-                        pageNumberCell.setBorder(1);
-                        attTable.addCell(pageNumberCell);
-                        
-                        PdfPCell emptyCell3 = new PdfPCell(pgh.multiFontPara("", pgh.getCellFont("FORMLABEL", null, "8")));
-                        emptyCell3 = new PdfPCell(pgh.multiFontPara(Integer.toString(doc.getPageNumber())+"/", pgh.getCellFont("DISPLAYTEXT", null, null)));
-                        emptyCell3.setBorder(1);
-                        emptyCell3.setBorderWidthRight(0.5f);
-                        attTable.addCell(emptyCell3);
                                                 
                         attCell = new PdfPCell(attTable);
                         firstRowTable.addCell(attCell);

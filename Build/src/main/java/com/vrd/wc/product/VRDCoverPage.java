@@ -164,7 +164,7 @@ public class VRDCoverPage {
 			
 			mainTable.addCell(util.createBlankDataCell(blankHeight));
 			
-			PdfPCell cell = returnTableOfContentCell(disclaimerText, 8, true);
+			PdfPCell cell = returnTableOfContentCell(disclaimerText, 7, true);
 			cell.setBorderWidth(1.0f);
 			cell.setFixedHeight(disclaimerHeight);
 			mainTable.addCell(cell);
@@ -596,7 +596,7 @@ public class VRDCoverPage {
 			table.setWidths(widths);
 			PdfPCell cell = createCoverPageImage(params);
 			cell.setBorder(0);
-			//table.addCell(cell);
+			table.addCell(cell);
 			tableCell = new PdfPCell(table);
 			tableCell.setBorder(0);
 			tableCell.setHorizontalAlignment(Element.ALIGN_LEFT);
