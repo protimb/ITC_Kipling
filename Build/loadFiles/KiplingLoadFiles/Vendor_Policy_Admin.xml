@@ -1,0 +1,1860 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE LibraryConfig SYSTEM "standardX26.dtd">
+<LibraryConfig>
+  <OrgStructure>
+    <DomainStructure>
+      <domainLevel>
+        <parentDomain>/Private</parentDomain>
+        <domainName>System</domainName>
+        <description>The system domain for a context&apos;s administrative objects.</description>
+      </domainLevel>
+      <domainLevel>
+        <parentDomain>/Default/PDM</parentDomain>
+        <domainName>Default</domainName>
+        <description>The default domain for a context&apos;s business objects.</description>
+        <domainLevel>
+          <domainName>RFA</domainName>
+          <description>RFA Domain</description>
+          <domainLevel>
+          <domainName>Agent</domainName>
+          <description>Agent Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Calendar</domainName>
+          <description>Calendar Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>CalendarTask</domainName>
+          <description>Calendar Task Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>ChangeItems</domainName>
+          <description>ChangeItems Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Colors</domainName>
+          <description>Colors Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Construction</domainName>
+          <description>Construction Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>CostSheets</domainName>
+          <description>CostSheets Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Country</domainName>
+          <description>Country Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Deliveries</domainName>
+          <description>Deliveries Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>DocumentCollections</domainName>
+          <description>DocumentCollections Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Documents</domainName>
+          <description>Documents Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>EffectivityContext</domainName>
+          <description>EffectivityContext Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Factory</domainName>
+          <description>Factory Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>FlexBOMPart</domainName>
+          <description>FlexBOMPart Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Last</domainName>
+          <description>Last Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>LifecycleManaged</domainName>
+          <description>LifecycleManaged Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>LogEntry</domainName>
+          <description>Log Entry Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>MOAObject</domainName>
+          <description>MOAObject Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Material</domainName>
+          <description>Material Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>MaterialColors</domainName>
+          <description>MaterialColors Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>MaterialGroups</domainName>
+          <description>MaterialGroups Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>MaterialSupplier</domainName>
+          <description>MaterialSupplier Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Measurements</domainName>
+          <description>Measurements Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Media</domainName>
+          <description>Media Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>OrderConfirmation</domainName>
+          <description>OrderConfirmation Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Palettes</domainName>
+          <description>Palettes Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Placeholder</domainName>
+          <description>Placeholder Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Plan</domainName>
+          <description>Plan Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>ProdSizeCategoryToSeason</domainName>
+          <description>ProdSizeCategoryToSeason Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>ProductDestination</domainName>
+          <description>Product Destination Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Products</domainName>
+          <description>Products Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>RFQ</domainName>
+          <description>RFQ Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>RevisableEntity</domainName>
+          <description>RevisableEntity Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>SKUSize</domainName>
+          <description>SKUSize Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>SKUs</domainName>
+          <description>SKUs Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Samples</domainName>
+          <description>Samples Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>SeasonGroups</domainName>
+          <description>SeasonGroups Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Seasons</domainName>
+          <description>Seasons Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>SizingDefinition</domainName>
+          <description>SizingDefinition Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>SourceToSeasonLink</domainName>
+          <description>SourceToSeasonLink Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>SourcingConfig</domainName>
+          <description>SourcingConfig Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Specification</domainName>
+          <description>Specification Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>Supplier</domainName>
+          <description>Supplier Domain</description>
+          </domainLevel>
+          <domainLevel>
+          <domainName>TestSpecification</domainName>
+          <description>TestSpecification Domain</description>
+          </domainLevel>
+        </domainLevel>
+      </domainLevel>
+    </DomainStructure>
+    <FolderStructure>
+      <cabinet>/Default</cabinet>
+      <domainName>/Default</domainName>
+      <rootPath>/</rootPath>
+      <AdHocACLEntrySet></AdHocACLEntrySet>
+      <nestedFolder>
+        <name>RFA</name>
+        <description> ((null))</description>
+        <domainName>/Default/RFA</domainName>
+        <AdHocACLEntrySet></AdHocACLEntrySet>
+        <nestedFolder>
+          <name>DocumentCollections</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/DocumentCollections</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>MaterialGroups</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/MaterialGroups</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>ChangeItems</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/ChangeItems</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Factory</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Factory</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>SourcingConfig</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/SourcingConfig</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Plan</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Plan</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Material</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Material</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>CostSheets</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/CostSheets</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Placeholder</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Placeholder</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Palettes</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Palettes</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>MaterialColors</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/MaterialColors</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>OrderConfirmation</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/OrderConfirmation</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Products</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Products</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Construction</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Construction</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>RFQ</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/RFQ</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>SKUs</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/SKUs</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Samples</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Samples</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>SizingDefinition</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/SizingDefinition</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Seasons</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Seasons</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Media</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Media</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>ProdSizeCategoryToSeason</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/ProdSizeCategoryToSeason</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Supplier</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Supplier</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>FlexBOMPart</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/FlexBOMPart</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>SKUSize</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/SKUSize</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Agent</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Agent</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Last</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Last</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>SeasonGroups</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/SeasonGroups</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Calendar</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Calendar</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Colors</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Colors</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>LifecycleManaged</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/LifecycleManaged</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>SourceToSeasonLink</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/SourceToSeasonLink</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>CalendarTask</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/CalendarTask</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Country</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Country</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>RevisableEntity</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/RevisableEntity</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Specification</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Specification</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>LogEntry</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/LogEntry</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Deliveries</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Deliveries</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>MaterialSupplier</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/MaterialSupplier</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>EffectivityContext</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/EffectivityContext</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>MOAObject</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/MOAObject</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Documents</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Documents</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>Measurements</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/Measurements</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>TestSpecification</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/TestSpecification</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+        <nestedFolder>
+          <name>ProductDestination</name>
+          <description> ((null))</description>
+          <domainName>/Default/RFA/ProductDestination</domainName>
+          <AdHocACLEntrySet></AdHocACLEntrySet>
+        </nestedFolder>
+      </nestedFolder>
+    </FolderStructure>
+  </OrgStructure>
+  <ExportedRoleMemberMap>
+    <projectMember><Role roleType="RECEIVED DELIVERY MANAGER"></Role></projectMember>
+    <projectMember>
+      <Role roleType="MEMBERS"></Role>
+      <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+        <ufid>cn=retail,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+        <name>Retail</name>
+      </WTPrincipalReference>
+      <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+        <ufid>cn=pdmusers,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+        <name>PDMUsers</name>
+      </WTPrincipalReference>
+    </projectMember>
+    <projectMember>
+      <Role roleType="LIBRARY MANAGER"></Role>
+      <WTPrincipalReference classType="wt.org.WTUser" fullName="Site, Administrator" isInternal="false" surname="Site" userEmail="">
+        <ufid>uid=wcadmin,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+        <name>Administrator</name>
+      </WTPrincipalReference>
+    </projectMember>
+    <projectMember><Role roleType="VARIANCE APPROVERS"></Role></projectMember>
+    <projectMember><Role roleType="CHANGE REQUEST REVIEW BOARD"></Role></projectMember>
+    <projectMember><Role roleType="PACKAGE CREATOR"></Role></projectMember>
+    <projectMember><Role roleType="CHANGE ADMINISTRATOR III"></Role></projectMember>
+    <projectMember><Role roleType="COLLABORATION MANAGER"></Role></projectMember>
+    <projectMember><Role roleType="OPTION ADMINISTRATOR"></Role></projectMember>
+    <projectMember><Role roleType="CHANGE ADMINISTRATOR I"></Role></projectMember>
+    <projectMember><Role roleType="CHANGE ADMINISTRATOR II"></Role></projectMember>
+    <projectMember><Role roleType="PROMOTION REVIEWERS"></Role></projectMember>
+    <projectMember><Role roleType="PROMOTION APPROVERS"></Role></projectMember>
+  </ExportedRoleMemberMap>
+  <ExportedGuestMembers></ExportedGuestMembers>
+  <ExportedTemplateFiltering></ExportedTemplateFiltering>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Group</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.OptionSet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Choice</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|wt.workflow.engine.WfExecutionObject</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Option</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|wt.fc.WTObject</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>LIBRARY MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|wt.fc.WTObject</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|wt.fc.WTObject</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>GUEST</groupName>
+      <groupType>GUEST</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.ChoiceRule</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/System</domainName>
+    <externalTypeId>WCTYPE|wt.folder.Cabinet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.ChoiceRule</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.ChoiceRule</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.annotation.StructuredAnnotationSet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeActivity2</externalTypeId>
+    <lifecycleState>IMPLEMENTATION</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.doc.WTDocument</externalTypeId>
+    <lifecycleState>RELEASED</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="REVISE"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.alternaterep.WTPartAlternateRep</externalTypeId>
+    <lifecycleState>RELEASED</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="REVISE"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeActivity2</externalTypeId>
+    <lifecycleState>OPEN</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.meeting.actionitem.DiscreteActionItem</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="false"><name>OWNER</name></WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="MODIFY"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.meeting.actionitem.DiscreteActionItem</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.meeting.actionitem.DiscreteActionItem</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>GUEST</groupName>
+      <groupType>GUEST</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeOrder2</externalTypeId>
+    <lifecycleState>UNDERREVIEW</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE REQUEST REVIEW BOARD</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.maturity.PromotionNotice</externalTypeId>
+    <lifecycleState>OPEN</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.wpcfg.doc.VariantSpec</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.wpcfg.doc.VariantSpec</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeRequest2</externalTypeId>
+    <lifecycleState>UNDERREVIEW</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE REQUEST REVIEW BOARD</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTProductInstance2</externalTypeId>
+    <lifecycleState>RELEASED</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="REVISE"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTVariance</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR I</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTVariance</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTVariance</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.maturity.PromotionNotice</externalTypeId>
+    <lifecycleState>UNDERREVIEW</lifecycleState>
+    <WTPrincipalReference isInternal="false"><name>OWNER</name></WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.maturity.PromotionNotice</externalTypeId>
+    <lifecycleState>UNDERREVIEW</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>PROMOTION REVIEWERS</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.maturity.PromotionNotice</externalTypeId>
+    <lifecycleState>UNDERREVIEW</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>PROMOTION APPROVERS</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.wpcfg.doc.VariantSpec</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+        <permissionField name="CHANGE_DOMAIN"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+        <permissionField name="CHANGE_CONTEXT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeRequest2</externalTypeId>
+    <lifecycleState>OPEN</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.annotation.StructuredAnnotationSet</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeIssue</externalTypeId>
+    <lifecycleState>OPEN</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeProposal</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR I</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeProposal</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR II</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeProposal</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.epm.EPMDocument</externalTypeId>
+    <lifecycleState>RELEASED</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="REVISE"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeOrder2</externalTypeId>
+    <lifecycleState>OPEN</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeOrder2</externalTypeId>
+    <lifecycleState>IMPLEMENTATION</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTPart</externalTypeId>
+    <lifecycleState>RELEASED</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="REVISE"></permissionField>
+        <permissionField name="NEW_VIEW_VERSION"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTVariance</externalTypeId>
+    <lifecycleState>UNDERREVIEW</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>VARIANCE APPROVERS</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.epm.EPMDocument</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.epm.EPMDocument</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.folder.Cabinet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.folder.Cabinet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>GUEST</groupName>
+      <groupType>GUEST</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.fc.WTObject</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>LIBRARY MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.fc.WTObject</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>GUEST</groupName>
+      <groupType>GUEST</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.doc.WTDocument</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+        <permissionField name="CHANGE_DOMAIN"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+        <permissionField name="CHANGE_CONTEXT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.alternaterep.WTPartAlternateRep</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+        <permissionField name="CHANGE_DOMAIN"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+        <permissionField name="CHANGE_CONTEXT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeRequest2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR I</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeRequest2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeRequest2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTPartSubstituteLink</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Group</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Group</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTPart</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTPart</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.vc.baseline.ManagedBaseline</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="CHANGE_DOMAIN"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+        <permissionField name="CHANGE_CONTEXT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTProductConfiguration</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeOrder2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR I</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeOrder2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeOrder2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR II</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeOrder2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeProposal</externalTypeId>
+    <lifecycleState>OPEN</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Choice</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Choice</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeIssue</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR I</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeIssue</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeIssue</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTProductInstance2</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.maturity.PromotionNotice</externalTypeId>
+    <lifecycleState>REJECTED</lifecycleState>
+    <WTPrincipalReference isInternal="false"><name>OWNER</name></WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTProductConfiguration</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeActivity2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR I</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeActivity2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeActivity2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>CHANGE ADMINISTRATOR II</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTChangeActivity2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTPartAlternateLink</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTProductInstance2</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Option</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.Option</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.epm.EPMDocument</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+        <permissionField name="CHANGE_DOMAIN"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+        <permissionField name="CHANGE_CONTEXT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.change2.WTVariance</externalTypeId>
+    <lifecycleState>OPEN</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.doc.WTDocument</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.doc.WTDocument</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.alternaterep.WTPartAlternateRep</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.alternaterep.WTPartAlternateRep</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.OptionSet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|com.ptc.windchill.option.model.OptionSet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>OPTION ADMINISTRATOR</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="ALL"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.part.WTPart</externalTypeId>
+    <lifecycleState>INWORK</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="DELETE"></permissionField>
+        <permissionField name="MODIFY_CONTENT"></permissionField>
+        <permissionField name="CHANGE_DOMAIN"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+        <permissionField name="CHANGE_CONTEXT"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.maturity.PromotionNotice</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="DOWNLOAD"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.vc.baseline.ManagedBaseline</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.folder.SubFolder</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>teamMembers</groupName>
+      <groupType>teamMembers</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.folder.SubFolder</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>GUEST</groupName>
+      <groupType>GUEST</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default</domainName>
+    <externalTypeId>WCTYPE|wt.folder.SubFolder</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference isInternal="true">
+      <groupName>COLLABORATION MANAGER</groupName>
+      <groupType>roleGroups</groupType>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="CHANGE_PERMISSIONS"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.supplier.LCSSupplier</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.sourcing.LCSSKUCostSheet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.sourcing.LCSSourceToSeasonLink</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.flexbom.FlexBOMPart</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.material.LCSMaterialSupplier</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.sample.LCSSample</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.sourcing.LCSSourcingConfig</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.epmstruct.FlexEPMDocToSpecLink</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.foundation.LCSLifecycleManaged</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.partstruct.FlexPartToSpecLink</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.specification.FlexSpecification</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+        <permissionField name="CREATE"></permissionField>
+        <permissionField name="CREATE_BY_MOVE"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.color.LCSColor</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.season.LCSSeason</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.material.LCSMaterialColor</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.sample.LCSSampleRequest</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.sourcing.LCSProductCostSheet</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet>
+        <permissionField name="READ"></permissionField>
+        <permissionField name="MODIFY"></permissionField>
+      </AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.material.LCSMaterial</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA</domainName>
+    <externalTypeId>WCTYPE|com.lcs.wc.skusize.SKUSizeSource</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AccessControlRule>
+    <domainName>/Default/RFA/SourceToSeasonLink</domainName>
+    <externalTypeId>WCTYPE|wt.fc.WTObject</externalTypeId>
+    <lifecycleState>ALL</lifecycleState>
+    <WTPrincipalReference classType="wt.org.WTGroup" isInternal="false">
+      <ufid>cn=vendor,ou=people,cn=administrativeldap,cn=windchill_11.0,o=charming|Ldap.plmtestlab.com|Ldap.plmtestlab.com</ufid>
+      <name>VENDOR</name>
+    </WTPrincipalReference>
+    <grantPermissionSet><AccessPermissionSet><permissionField name="READ"></permissionField></AccessPermissionSet></grantPermissionSet>
+  </AccessControlRule>
+  <AdHocACLEntrySet></AdHocACLEntrySet>
+</LibraryConfig>
