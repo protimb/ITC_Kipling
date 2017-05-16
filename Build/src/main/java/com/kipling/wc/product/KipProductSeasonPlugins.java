@@ -69,7 +69,7 @@ public final class KipProductSeasonPlugins {
 		linkObj.setValue(WHOLESALEMARGIN_PRODSEASON_ATTKEY, wholesaleBo);
 		
 		LCSLog.debug("End of populateRetailMargins method in KipProductSeasonPlugins class========>>>>>>>>");
-
+ 
 	}
 
 	/**
@@ -88,7 +88,7 @@ public final class KipProductSeasonPlugins {
 		LCSSeason seasonObj = SeasonProductLocator.getSeasonRev(linkObj);
 		
 		String seasonYear = (String) seasonObj.getValue(YEAR_SEASON_ATTKEY);
-		
+		 
 		Double csTargetStandardCost =  KipCostSheetPlugins.getStandardCostFactorsFromBO(linkObj, seasonYear, "productseason");
 		linkObj.setValue(TARGETSTDCOST_PRODSEASON_ATTKEY, csTargetStandardCost);
 		
